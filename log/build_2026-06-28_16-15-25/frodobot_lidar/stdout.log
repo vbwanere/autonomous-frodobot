@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable lidar_node[0m
+[100%] Built target lidar_node
+-- Install configuration: ""
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/lib/frodobot_lidar/lidar_node
+-- Set runtime path of "/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/lib/frodobot_lidar/lidar_node" to ""
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/package_run_dependencies/frodobot_lidar
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/parent_prefix_path/frodobot_lidar
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/path.sh
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/path.dsv
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.bash
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.sh
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.zsh
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.dsv
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/package.dsv
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/packages/frodobot_lidar
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/cmake/frodobot_lidarConfig.cmake
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/cmake/frodobot_lidarConfig-version.cmake
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/package.xml

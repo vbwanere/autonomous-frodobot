@@ -1,0 +1,41 @@
+[0.005s] Invoking command in '/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar -- -j32 -l32
+[0.021s] [35m[1mConsolidate compiler generated dependencies of target lidar_node[0m
+[0.027s] [ 33%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[0.989s] In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_cmd.h:41[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_driver.h:54[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar.h:36[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/../lidar/LidarScanner.hpp:4[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/lidar_node.cpp:5[m[K:
+[0.989s] [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.989s]    66 |     sl_u8 data[[01;35m[K0[m[K];
+[0.989s]       |                [01;35m[K^[m[K
+[0.989s] In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_driver.h:54[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar.h:36[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/../lidar/LidarScanner.hpp:4[m[K,
+[0.989s]                  from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/lidar_node.cpp:5[m[K:
+[0.989s] [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.989s]   324 |     sl_u8  payload[[01;35m[K0[m[K];
+[0.989s]       |                    [01;35m[K^[m[K
+[1.857s] [ 66%] [32m[1mLinking CXX executable lidar_node[0m
+[1.935s] [100%] Built target lidar_node
+[1.940s] Invoked command in '/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar -- -j32 -l32
+[1.944s] Invoking command in '/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar
+[1.946s] -- Install configuration: ""
+[1.946s] -- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/lib/frodobot_lidar/lidar_node
+[1.947s] -- Set runtime path of "/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/lib/frodobot_lidar/lidar_node" to ""
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/package_run_dependencies/frodobot_lidar
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/parent_prefix_path/frodobot_lidar
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/ament_prefix_path.sh
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/ament_prefix_path.dsv
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/path.sh
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/path.dsv
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.bash
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.sh
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.zsh
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.dsv
+[1.947s] -- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/package.dsv
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/packages/frodobot_lidar
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/cmake/frodobot_lidarConfig.cmake
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/cmake/frodobot_lidarConfig-version.cmake
+[1.947s] -- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/package.xml
+[1.948s] Invoked command in '/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/build/frodobot_lidar

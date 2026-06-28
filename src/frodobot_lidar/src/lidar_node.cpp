@@ -28,12 +28,22 @@ public:
             msg.range_max = 12.0;
 
             for (auto& p : points) {
-                if (p.quality == 0)
+                if (p.quality == 0) {
                     msg.ranges.push_back(std::numeric_limits<float>::infinity());
-                else
+                    msg.intensities.push_back(0.0f);
+                } else {
                     msg.ranges.push_back(p.distance / 1000.0f);
+                    msg.intensities.push_back(p.distance / 1000.0f);  // distance as intensity
+                }
             }
 
+            // for (auto& p : points) {
+            //     if (p.quality == 0)
+            //         msg.ranges.push_back(std::numeric_limits<float>::infinity());
+            //     else
+            //         msg.ranges.push_back(p.distance / 1000.0f);
+            // }
+            
             m_pub->publish(msg);
         }
         else {
