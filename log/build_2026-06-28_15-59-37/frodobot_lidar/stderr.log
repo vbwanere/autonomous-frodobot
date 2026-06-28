@@ -1,0 +1,15 @@
+In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/lidar/LidarScanner.cpp:1[m[K:
+[01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/lidar/LidarScanner.hpp:4:10:[m[K [01;31m[Kfatal error: [m[K../rplidar_sdk/sdk/include/sl_lidar.h: No such file or directory
+    4 | #include [01;31m[K"../rplidar_sdk/sdk/include/sl_lidar.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:90: CMakeFiles/lidar_node.dir/lidar/LidarScanner.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/lidar_node.cpp:5[m[K:
+[01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/../lidar/LidarScanner.hpp:4:10:[m[K [01;31m[Kfatal error: [m[K../rplidar_sdk/sdk/include/sl_lidar.h: No such file or directory
+    4 | #include [01;31m[K"../rplidar_sdk/sdk/include/sl_lidar.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

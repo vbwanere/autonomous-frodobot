@@ -1,0 +1,52 @@
+[ 33%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/lidar/LidarScanner.cpp.o[0m
+In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/lidar/LidarScanner.hpp:4[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/lidar/LidarScanner.cpp:1[m[K:
+[01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/lidar/LidarScanner.hpp:4[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/lidar/LidarScanner.cpp:1[m[K:
+[01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_cmd.h:41[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/../lidar/LidarScanner.hpp:4[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/lidar_node.cpp:5[m[K:
+[01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_protocol.h:66:16:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kdata[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   66 |     sl_u8 data[[01;35m[K0[m[K];
+      |                [01;35m[K^[m[K
+In file included from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_driver.h:54[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar.h:36[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/../lidar/LidarScanner.hpp:4[m[K,
+                 from [01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/src/lidar_node.cpp:5[m[K:
+[01m[K/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/src/frodobot_lidar/../../rplidar_sdk/sdk/include/sl_lidar_cmd.h:324:20:[m[K [01;35m[Kwarning: [m[KISO C++ forbids zero-size array ‘[01m[Kpayload[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     sl_u8  payload[[01;35m[K0[m[K];
+      |                    [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX executable lidar_node[0m
+[100%] Built target lidar_node
+-- Install configuration: ""
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/lib/frodobot_lidar/lidar_node
+-- Set runtime path of "/home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/lib/frodobot_lidar/lidar_node" to ""
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/package_run_dependencies/frodobot_lidar
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/parent_prefix_path/frodobot_lidar
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/ament_prefix_path.sh
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/ament_prefix_path.dsv
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/path.sh
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/environment/path.dsv
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.bash
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.sh
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.zsh
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/local_setup.dsv
+-- Up-to-date: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/package.dsv
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/ament_index/resource_index/packages/frodobot_lidar
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/cmake/frodobot_lidarConfig.cmake
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/cmake/frodobot_lidarConfig-version.cmake
+-- Installing: /home/vbwanere/Vaibhav-GitHub/autonomous-frodobot/install/frodobot_lidar/share/frodobot_lidar/package.xml

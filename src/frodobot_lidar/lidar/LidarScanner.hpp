@@ -1,7 +1,7 @@
 #pragma once
 #include "../core/Result.hpp"
 #include "ScanPoint.hpp"
-#include "../rplidar_sdk/sdk/include/sl_lidar.h"
+#include "sl_lidar.h"
 #include <string>
 #include <vector>
 
